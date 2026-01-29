@@ -33,7 +33,7 @@ pipeline {
             steps {
                 sh '''
                 docker rm -f html-app || true
-                docker run -d -p 8080:80 --name html-app $IMAGE_NAME
+                docker run -d -p 8070:80 --name html-app $IMAGE_NAME
                 '''
             }
         }
