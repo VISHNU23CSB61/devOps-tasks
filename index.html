@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jenkins Docker Automation</title>
+    <meta charset="UTF-8">
+    <title>DevOps Task Completed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+
+        .badge {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            border-radius: 30px;
+            background: linear-gradient(90deg, #721265, #e97528);
+            color: #000;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            opacity: 0.95;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
-    <h1>🚀 Automated using Jenkins</h1>
-    <h2>Built, Run & Pushed to Docker Hub</h2>
+
+    <div class="card">
+        <h1>Task Completed Successfully</h1>
+        <h2>DevOps Automation Project</h2>
+
+        <div class="badge">Jenkins • Docker • CI/CD</div>
+
+        <p>
+            This project demonstrates a complete <b>CI/CD pipeline</b> where an
+            <b>HTML application</b> is containerized using <b>Docker</b>,
+            automatically built, pushed to <b>Docker Hub</b>, and deployed using
+            <b>Jenkins</b>.
+        </p>
+
+        <p>
+            The pipeline includes source code checkout, Docker image build,
+            secure authentication using Docker Hub access tokens, image push,
+            and automated container deployment.
+        </p>
+
+        <div class="footer">
+            Created by <b>Vishnu</b><br>
+             DevOps Task Jenkins + Docker Automation
+        </div>
+    </div>
+
 </body>
 </html>
